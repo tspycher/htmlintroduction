@@ -1,0 +1,61 @@
+body {
+	font-family: sans-serif;
+	font-style: normal;
+	font-weight: 100;
+	color: rgba(255,255,255,0.91);
+	background-image:url('../img/cf-texture.png');
+	background-color:#cccccc;
+}
+
+h1 {text-transform:uppercase;
+	font-variant: small-caps;
+	letter-spacing: -0.05em;
+	line-height: 3;
+	text-align: center;
+}
+h2 {text-transform:uppercase;
+	letter-spacing: 0.6em;
+	line-height: 1.5;
+	text-align: center;
+}
+hr {
+	width: 50%;
+	line-height: 2;
+
+}
+
+img {
+	width="400";
+	border: rgba(255,255,255,0.7);
+	border-style: solid;
+	padding: 5px;
+	border-width: 1px;
+	
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.stitched {
+   padding: 20px;
+   margin: 10px;
+   background: rgba(0,0,0,0.5);
+   color: rgba(158,158,158,0.85);
+   font-size: 21px;
+   font-weight: bold;
+   line-height: 1.3em;
+   border: 1px dashed rgba(219,214,214,0.94);
+   border-radius: 10px;
+   box-shadow: 0 0 0 4px rgba(255,253,253,0.44), 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
+   text-shadow: -1px -1px #ffffff;
+   font-weight: normal;
+}
+
+p {
+	width: 70%;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.2;
+}
